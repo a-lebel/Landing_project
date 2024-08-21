@@ -1,0 +1,253 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 64px 160px 80px 160px;
+    background-image: url(./assets/bg-main-desktop.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+h1 {
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 88px;
+    line-height: 100%;
+    letter-spacing: -1px;
+    font-weight: bold;
+    max-width: 928px;
+    align-self: stretch;
+    margin: 0;
+    margin-top: 128px;
+}
+
+h2 {
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 64px;
+    line-height: 100%;
+    font-weight: bold;
+}
+
+h3 {
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 40px;
+    line-height: 110%;
+    font-weight: bold;
+}
+
+h4 {
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 20px;
+    line-height: 150%;
+    font-weight: normal;
+    margin: 0;
+}
+
+p {
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 16px;
+    line-height: 150%;
+    font-weight: normal;
+}
+
+
+button {
+    font-family: 'IBMPlexSans', sans-serif;
+    font-size: 18px;
+    line-height: 180%;
+    font-weight: bold;
+}
+
+.pattern1 {
+    right: 0;
+    top: -40px;
+    position: absolute;
+    z-index: -1;
+
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: flex-start;
+    align-self: stretch;
+    gap: 40px;
+    padding-bottom: 64px;
+}
+
+.headerText {
+    max-width: 736px;
+    align-self: stretch;
+}
+
+section {
+    padding: 200px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.maincontent {
+    display: flex;
+    height: 600px;
+    width: 100%;
+    max-width: 1500px;
+    padding-right: 64px;
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 12px;
+    background: #191826;
+}
+
+.pattern2 {
+    width: 312px;
+    height: 468px;
+    position: absolute;
+    left: 35%;
+
+    align-self: flex-start;
+}
+
+.priceinfo {
+    width: 100%;
+    max-width: 1300px;
+    height: 842px;
+    display: flex;
+    z-index: 1000;
+    justify-content: space-around;
+}
+
+.phone {
+    display: flex;
+    padding-bottom: 20%;
+
+    height: auto;
+    width: 512px;
+    align-items: center;
+    justify-content: center;
+}
+
+.phone img {
+    width: auto;
+    height: 100%;
+    z-index: 1000;
+}
+
+.cardcontainer {
+    display: flex;
+    flex-direction: column;
+    padding-top: 40%;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    flex: 1 0 0;
+    align-self: stretch;
+    height: 642px;
+    width: 512px;
+}
+
+.card {
+    padding: 56px;
+    background-color: #FA7453;
+    border-radius: 16px;
+
+    width: 512px;
+    height: auto;
+}
+
+.card h2 {
+    margin: 0;
+}
+
+#cardtitle {
+    margin-bottom: 24px;
+}
+
+.price {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 40px;
+    margin-top: 40px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+    gap: 16px;
+    flex-direction: column;
+}
+
+button {
+    display: flex;
+    width: 100%;
+    padding: 16px 32px;
+    border-radius: 12px;
+    border: none;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    cursor: pointer;
+}
+
+.ios {
+    background-color: #191826;
+    color: #FAFAFA;
+}
+
+.ios:hover {
+    background-color: #29292d;
+    color: #FAFAFA;
+
+    transition: 0.3s;
+}
+
+.android {
+    background-color: #FAFAFA;
+    color: #191826;
+}
+
+.android:hover {
+    background-color: #dedede;
+    color: #191826;
+
+    transition: 0.3s;
+}
+
+footer {
+    display: flex;
+    width: 100%;
+    height: auto;
+    padding: 64px 0;
+    justify-content: space-between;
+    align-items: center;
+    gap: 128px;
+}
+
+.footercontent {
+    width: 832px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 128px;
+}
+
+.footercontent p {
+    margin: 0;
+}
+
+.footerlogo {
+    width: 144px;
+    height: auto;
+}
+
+.social {
+    display: flex;
+    gap: 32px;
+}
+
+.social img {
+    cursor: pointer;
+}
